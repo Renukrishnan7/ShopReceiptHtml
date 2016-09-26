@@ -1,0 +1,73 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0 auto 0 auto;
+	padding: 10px;
+}
+.container{
+	width: 700px;
+	margin: 0 auto 0 auto;
+	border: 1px solid blue;
+	background-color: #16a085;
+}
+.header-section{
+	overflow: hidden;
+	margin-top: 2%;
+}
+.receipt-section h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #ecf0f1;
+	font-family: helvetica;
+}
+img{
+	float: left;
+	width: 150px;
+	height: 150px;
+    margin-left: 3%;
+}
+.date-section{
+	margin-left: 70%;
+}
+.date-section h3{
+	text-transform: capitalize;
+	color: #ecf0f1;
+}
+.receipt-no-section{
+	margin-left: 70%;
+}
+.receipt-no-section h3{
+	text-transform: capitalize;
+	color: #ecf0f1;
+}
+.main-section .para-section h4{
+	text-indent: 200px;
+	font-size: 20px;
+	color: #ecf0f1;
+	padding: 2%;
+}
+.footer-section div{
+	display: inline-block;
+}
+.footer-section .general-section{
+	margin-left: 2%;
+}
+.footer-section .ceo-section{
+	margin-left: 20%;
+}
+.footer-section .receiver-section{
+	margin-left: 20%;
+}
+.footer-section .general-section h3{
+	text-transform: capitalize;
+	color: #ecf0f1;
+}
+.footer-section .ceo-section h3{
+	text-transform: uppercase;
+	color: #ecf0f1;
+}
+.footer-section .receiver-section h3{
+	text-transform: capitalize;
+	color: #ecf0f1;
+}
